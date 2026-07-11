@@ -1,0 +1,5 @@
+## License
+
+This project is distributed as a commercial product.
+
+Redistribution or resale is prohibited without written permission.

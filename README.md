@@ -1,4 +1,4 @@
-# ESP32-RF-Gateway-Pro
+# ESP32 RF Gateway Pro
 
 ## Overview
 
