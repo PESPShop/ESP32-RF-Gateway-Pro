@@ -1,112 +1,26 @@
-# ESP32 RF Gateway Pro
+ESP32 RF Gateway Pro
 
-## Overview
+Commercial ESP32 RF Gateway project.
 
-ESP32 RF Gateway Pro is a web-based 433 MHz RF receiver and transmitter built around the ESP32.
+Features:
 
-It allows you to receive, analyze, save and retransmit RF signals directly from a web browser without reconnecting the ESP32 to a computer.
-
-The firmware also includes WiFi provisioning, OTA firmware updates and configuration storage.
-
----
-
-## Features
-
-✔ Live RF Monitor (WebSocket)
-
-✔ RF Signal Learning
-
+✔ Live RF Monitor
+✔ RF Learning
 ✔ RF Replay
+✔ OTA Update
+✔ WiFi Configuration Portal
+✔ Backup / Restore
+✔ WebSocket Interface
+✔ Responsive Dashboard
 
-✔ Save Unlimited RF Codes (LittleFS)
+Required Hardware:
 
-✔ Search Saved Codes
+• ESP32 Dev Board
+• 433 MHz Receiver
+• 433 MHz Transmitter
 
-✔ Delete / Edit Saved Codes
+Documentation and screenshots are available in this repository.
 
-✔ Random RF Code Generator
+The complete source code is available separately.
 
-✔ Backup & Restore
-
-✔ WiFi Setup Portal
-
-✔ OTA Firmware Updates
-
-✔ Responsive Web Interface
-
----
-
-## Hardware Requirements
-
-- ESP32 Development Board
-- 433 MHz RF Receiver Module
-- 433 MHz RF Transmitter Module
-
-Recommended modules:
-
-- XY-MK-5V or SYN480 Receiver
-- FS1000A or SYN115 Transmitter
-
----
-
-## Default Pins
-
-TX GPIO12
-
-RX GPIO13
-
-Status LED GPIO2
-
-(These pins can be modified in config.h.)
-
----
-
-## Installation
-
-1. Install Arduino IDE.
-
-2. Install required libraries.
-
-3. Upload the firmware.
-
-4. Upload LittleFS data (if applicable).
-
-5. Connect to the temporary WiFi AP.
-
-6. Configure your WiFi credentials.
-
-7. Open the device IP address in your browser.
-
----
-
-## Web Interface
-
-The web interface allows you to:
-
-- Monitor incoming RF signals
-- Save RF codes
-- Replay saved codes
-- Send custom RF signals
-- Export / Import backups
-- Configure WiFi
-- Perform OTA firmware updates
-
----
-
-## Typical Applications
-
-- RF Remote Learning
-- RF Signal Analyzer
-- Remote Control Backup
-- Home Automation
-- RF Device Testing
-- Garage Door Remote Testing
-- Smart Home Development
-
----
-
-## License
-
-This project is distributed as a commercial product.
-
-Redistribution or resale is prohibited without written permission.
+👉 Purchase: https://payhip.com/b/UbSY9
