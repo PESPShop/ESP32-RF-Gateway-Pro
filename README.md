@@ -91,8 +91,11 @@ The complete commercial source code is distributed separately.
 
 ## Screenshots
 
-Screenshots of the web interface are available in the **Screenshots** folder.
-
+<img src="Screenshots/Screenshot_2026-07-08-08-43-20-917_com.android.chrome.jpg" width="300">
+<img src="Screenshots/Screenshot_2026-07-08-08-43-36-991_com.android.chrome.jpg" width="300">
+<img src="Screenshots/Screenshot_2026-07-08-08-44-36-146_com.android.chrome.jpg" width="300">
+<img src="Screenshots/Screenshot_2026-07-08-08-47-03-826_com.android.chrome.jpg" width="300">
+<img src="Screenshots/Screenshot_2026-07-08-08-47-26-877_com.android.chrome.jpg" width="300">
 ---
 
 ## Demo
@@ -119,6 +122,20 @@ The complete project includes:
 ## Changelog
 
 See **CHANGELOG.md**
+
+---
+
+## Roadmap
+
+🟢 v1.0 Initial Release
+
+⚪ Dark mode
+
+⚪ MQTT support
+
+⚪ REST API
+
+⚪ Multi-user authentication
 
 ---
 
